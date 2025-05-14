@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* element Selector */
+p {
+  text-align: left;
+  color: red;
+} 
+/* id Selector */
+#para1 {
+  text-align: right;
+  color: yellowgreen;
+}
+/* class Selector */
+.center {
+  text-align: center;
+  color: blue;
+}
+p.center {
+  text-align: center;
+  color: orange;
+}
+p.large {
+  font-size: 300%;
+}
+/* Universal Selector */
+* {
+  text-align: left;
+  color: green;
+}
+/* Grouping Selector */
+h1, h2, div {
+  text-align: center;
+  color: fuchsia;
+}
+</style>
+</head>
+<body>
+<h1>default h1</h1>
+<h2>default h2</h2>
+<h3>default h3</h3>
+<p>Every paragraph will be affected by the style.</p>
+<p>It is a default paragraph</p>
+
+<p id="para1">This is para1!</p>
+
+<h1 class="center">blue and center-aligned heading</h1>
+<p class="center">orange and center-aligned paragraph</p>
+<p class="center large">This paragraph will be orange, center-aligned, and in a large font-size.</p> 
+
+<div>This is a div element.</div>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+</body>
+</html>
