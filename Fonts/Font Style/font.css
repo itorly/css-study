@@ -27,3 +27,12 @@ p.thick {
 p.thicker {
   font-weight: 900;
 }
+
+/* Font Variant */
+p.variant-normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
